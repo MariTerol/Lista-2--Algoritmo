@@ -167,7 +167,7 @@ int main(void) {
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-\n");
     printf("\tAlunos matriculados na primeira disciplina ordenados por idade:\n");
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-\n");
-    for (i = 0; i < qtd_alunos[0]; i++) {
+    for (i = 0; i < qtd_alunos[0] && i < 10; i++) {
 
         printf("%d\n\n", disciplina[0].codigo);
         printf("%s\n\n", disciplina[0].profr);
@@ -192,7 +192,7 @@ int main(void) {
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-\n");
     printf("\tAlunos matriculados na segunda disciplina ordenados por idade em ordem decrescente:\n");
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-\n");
-    for (i = 0; i < qtd_alunos[1]; i++) {
+    for (i = 0; i < qtd_alunos[1] && i < 10; i++) {
 
         printf("%d\n\n", disciplina[1].codigo);
         printf("%s\n\n", disciplina[1].profr);
